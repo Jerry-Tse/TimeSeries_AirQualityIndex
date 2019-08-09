@@ -16,7 +16,7 @@ Use open source Air Quality dataset on UCI, generate reasonable Index for Air Qu
 Orginial dataset is avaliable from [UCI website](https://archive.ics.uci.edu/ml/datasets/Air+Quality), which orginally derived from research made by De Vito, et al.(2008).  
   
 Here are some hints for this datasets:  
-* Data is recorded from 
+* Data is recorded from 10.3.2004 to 04.4.2005 in an unknown city in Italy, the journal only mentioned the city as highly polluted.
 
 
 
