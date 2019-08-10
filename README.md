@@ -21,7 +21,7 @@ Here are some hints for this datasets:
 * Measures in GT contain unit, while PT has no unit recorded.
 * GT includes CO, NOx, NO2, Bezene and NHMC(Non Metanic Hydrocarbons).
 * PT includes CO, NOx, NO2, O3 and NHMC.
-* All the missing value is replaced with -200.
+* All the missing value were replaced with -200.
   
 ## Define Air Quality Index
 Generally, most Air Quality Indexes are describing how the air pollutant affect our health. Since race and ethnicity might also lead to difference resistence toward the pollutant, I narrowed down my search for reference in consider of their time and place.
@@ -31,13 +31,14 @@ Three reference are used to quantify the relationship between air pollutant and 
 * [Air quality in Europe report (European environment agency, 2016)](https://www.eea.europa.eu/publications/air-quality-in-europe-2016)
 * [Chiusolo, Monica, et al. "Short-term effects of nitrogen dioxide on mortality and susceptibility factors in 10 Italian cities: the EpiAir study." Environmental health perspectives 119.9 (2011): 1233-1238.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3230391/)
   
-The first article investigate how Particles, SO2, NO2, CO, O3 in Rome affect on short-term(Lag 0-5 days) mortality risk from 1992-1995. The result shows when the analysis was restricted to the deaths occurring among residents of the central area, higher coefficients were found for particles (0.66% at lag 0) and NO2 (0.55% at lag 2). No effect of
-CO, SO2, or O3 was detected. While O3 also show related for the residents in city edge.
+The first article investigated how Particles, SO2, NO2, CO, O3 affect on short-term(Lag 0-5 days) mortality risk in Rome from 1992 to 1995. The result shows when the analysis was restricted to the deaths occurring among residents of the central area, higher coefficients were found for particles (0.66% at lag 0) and NO2 (0.55% at lag 2). No effect of
+CO, SO2, or O3 was detected. While O3 show related to the mortality for the residents in city edge.
   
-The second
+The second report describes when considering the air quality, the largest health impacts and the rates of YLL(years of life lost) attributable to NO2 and O3 are found in Italy compare to other European countries.
   
-The third article 
-
+The third article investigate how PM10, NO2, O3 affect on short-term(Lag 0-5 days) mortality risk in 10 metropolis from 2001 to 2005. The result shows that the concentration of NO2 and PM10 plays a bigger role compare to other air pollutant. It also quantified the relationship between mortality risk and pollutant concentration.
+  
+The above articles suggest that the NO2 and O3 in our data would be the main target when building our index. It is also worth noted that time period in the third article actually overlaps with our data, and since we don't have the actual place where the data was recorded, the pooling average of 10 metropolis might provide an alternative path to transfer our pollutant record into health impact.
 
 ## Data Processing
 ## Data Visualization
