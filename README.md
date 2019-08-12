@@ -44,6 +44,10 @@ The above articles suggest that the NO2 and O3 in our data would be the main tar
 ## Data Processing
 Including missing value treatments, and scaling of unit. 
   
+When treating missing values, I decided to take average on the same hours within five sequential days, the detailed reasons are mentioned in the .ipynb with several graphs used as basis.
+  
+
+
 ## Data Visualization
 Data exploration via hourly, monthly and yearly graph.
   
