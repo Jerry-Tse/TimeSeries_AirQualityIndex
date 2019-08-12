@@ -7,6 +7,7 @@ Use open source Air Quality dataset on UCI, generate reasonable Index for Air Qu
 - [Data Processing](#data-processing)
 - [Data Visualization](#data-visualization)
 - [Modeling and Predictions](#modeling-and-predictions)
+- [Conclusion](#conclusion)
 
 
 ---
@@ -41,7 +42,12 @@ The third article investigate how PM10, NO2, O3 affect on short-term(Lag 0-5 day
 The above articles suggest that the NO2 and O3 in our data would be the main target when building our index. It is also worth noted that time period in the third article actually overlaps with our data, and since we don't have the actual place where the data was recorded, the pooling average of 10 metropolis might provide an alternative path to transfer our pollutant record into health impact.
 
 ## Data Processing
+Including missing value treatments, and scaling of unit. 
+  
 ## Data Visualization
+Data exploration via hourly, monthly and yearly graph.
+  
 ## Modeling and Predictions
+Normally in prediction of time series, we investigate the relationship of each outcome Y in different time spot. For example, ARIMA uses auto regressive line to predict future value. In this project, I selected the lagged random forest model as my model for its great interpretability and adaptation of different X. During the step of lagging, the sequential outcome Y before the target time spot are transformed into factor X, it not only gives us chances of using strong predicting model like LGBM, XGBoost, it also enables us to get insight on which outcome Y plays the most important role in future value.
 
-
+## Conclusion
