@@ -42,11 +42,11 @@ The third article investigate how PM10, NO2, O3 affect on short-term(Lag 0-5 day
 The above articles suggest that the NO2 and O3 in our data would be the main target when building our index. It is also worth noted that time period in the third article actually overlaps with our data, and since we don't have the actual place where the data was recorded, the pooling average of 10 metropolis might provide an alternative path to transfer our pollutant record into health impact.
 
 ## Data Processing
-Including missing value treatments, and scaling of unit. 
+Including missing value treatments, and scaling of units. 
   
 When treating missing values, I decided to take average on the same hours within five sequential days, the detailed reasons are mentioned in the .ipynb with several graphs used as basis.
   
-
+When scaling the units of PT and GT, I took out the middle 50% data of GT and PT, sorted and drew the scatter plot to find the regression line. The reasons why we did this is based on the truth recording situation of PT and GT, see .ipynb for detailed explanation.
 
 ## Data Visualization
 Data exploration via hourly, monthly and yearly graph.
