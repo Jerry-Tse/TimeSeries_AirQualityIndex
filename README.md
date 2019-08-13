@@ -1,3 +1,5 @@
+> In this analysis, I spend quite amount of time investigating the truth background of the data and a proper, reasonable way to analyze, every step and every method I chose have some reasons behind. I hope you can get inspired from my article.
+
 # Air Quality Index: 5 Days Relative Mortality Risk
 Use open source Air Quality dataset on UCI, generate reasonable Index for Air Quality, perform data analysis and make predictions.
 
@@ -46,10 +48,12 @@ Including missing value treatments, and scaling of units.
   
 When treating missing values, I decided to take average on the same hours within five sequential days, the detailed reasons are mentioned in the .ipynb with several graphs used as basis.
   
-When scaling the units of PT and GT, I took out the middle 50% data of GT and PT, sorted and drew the scatter plot to find the regression line. The reasons why we did this is based on the truth recording situation of PT and GT, see .ipynb for detailed explanation.
-
+When scaling the units of PT and GT, I took out the middle 50% data of GT and PT, sorted and drew the scatter plot to find the regression line(like the way we draw QQ-plot in statistics). The reasons why we did this is based on the truth recording situation of PT and GT, see .ipynb for detailed explanation.
+  
 ## Data Visualization
-Data exploration via hourly, monthly and yearly graph.
+Data exploration via hourly, daily, monthly and yearly graph.
+  
+I take no action to the outliers in data, which is based on the formula of 1.5 times of IQR and the property when collecting our dataset. View the Data Visualization-Daily basis for more information.
   
 ## Modeling and Predictions
 Normally in prediction of time series, we investigate the relationship of each outcome Y in different time spot. For example, ARIMA uses auto regressive line to predict future value. In this project, I selected the lagged random forest model as my model for its great interpretability and adaptation of different X. During the step of lagging, the sequential outcome Y before the target time spot are transformed into factor X, it not only gives us chances of using strong predicting model like LGBM, XGBoost, it also enables us to get insight on which outcome Y plays the most important role in future value.
