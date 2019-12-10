@@ -29,9 +29,7 @@ Here are some hints for this datasets:
 * All the missing value were replaced with -200.
   
 ## Define Air Quality Index
-Generally, most Air Quality Indexes are describing how the air pollutant affect our health. Since race and ethnicity might also lead to difference resistence toward the pollutant, I narrowed down my search for reference in consider of their time and place.
-  
-Three reference are used to quantify the relationship between air pollutant and mortality risk:
+In consider of different race and ethnicity might lead to different resistence toward the pollutant, three reference with similar background as our data are used to quantify the relationship between air pollutant and mortality risk:
 * [Michelozzi, P., et al. "Air pollution and daily mortality in Rome, Italy." Occupational and Environmental Medicine 55.9 (1998): 605-610.](https://oem.bmj.com/content/55/9/605.short)
 * [Air quality in Europe report (European environment agency, 2016)](https://www.eea.europa.eu/publications/air-quality-in-europe-2016)
 * [Chiusolo, Monica, et al. "Short-term effects of nitrogen dioxide on mortality and susceptibility factors in 10 Italian cities: the EpiAir study." Environmental health perspectives 119.9 (2011): 1233-1238.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3230391/)
