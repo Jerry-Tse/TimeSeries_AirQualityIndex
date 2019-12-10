@@ -1,6 +1,8 @@
-> ### [Click here for nbviewer](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_1.ipynb) for some ploty graph in .ipynb cannot be seen in Github preview
-  
-> In this analysis, I spend quite amount of time investigating the truth background of the data and a proper, reasonable way to analyze, every step and every method I chose have some reasons behind. I hope you can get inspired from my article.
+> ### Click for some ploty graph in .ipynb cannot be seen in Github preview
+> [Part I](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_1.ipynb) 
+> [Part II]()
+
+> This analysis emphasize on a reasonable analysis based on the background of the data, every step and method has some reasons behind. I hope you can get inspired from my article.
 
 # Air Quality Index: 5 Days Relative Mortality Risk
 Use open source Air Quality dataset on UCI, generate reasonable Index for Air Quality, perform data analysis and make predictions.
