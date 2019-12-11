@@ -1,6 +1,4 @@
-> ### Click for some ploty graph in .ipynb cannot be seen in Github preview
-> [Part I](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_1.ipynb) 
-> [Part II]()
+> ### Click here ([Part I](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_1.ipynb) & [Part II](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_2.ipynb)) to see full analysis 
 
 > This analysis emphasize on a reasonable analysis based on the background of the data, every step and method has some reasons behind. I hope you can get inspired from my article.
 
@@ -61,6 +59,9 @@ I take no action to the outliers in data, which is based on the formula of 1.5 t
 Normally in prediction of time series, we investigate the relationship of each outcome Y in different time spot. For example, ARIMA uses auto regressive line to predict future value. In this project, I selected the lagged random forest model as my model for its great interpretability and adaptation of different X. During the step of lagging, the sequential outcome Y before the target time spot are transformed into factor X, it not only gives us chances of using strong predicting model like LGBM, XGBoost, it also enables us to get insight on which outcome Y plays the most important role in future value.
 
 ## Conclusion
+- Based on visualization, I use the same hour within five sequential days to impute the missing value after preprocess.
+- Scaling GT to PT with Linear regression give the results of coefficient: 0.15632704 and intercept: -121.11197
+- According to visualization, we can conclude that the concentration of air pollutants are highly correlated with human activity.
 - Different from the traditional time series model like ARIMA, machine learning methods provide a way to include other EXO variables into consideration.
 - By using the Lagging method, it helps machine learning methods not to lose the sequential information in time series.
 - The random forest show pretty good predicion accuracy with this data with RMSE = 7.78
