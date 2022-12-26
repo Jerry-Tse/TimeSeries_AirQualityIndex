@@ -5,7 +5,7 @@
 # Project -- Air Quality Index: 5 Days Relative Mortality Risk 
 **Utilize open-source air pollutant datasets, define an air quality index, perform in-depth data analysis, and perform time-series forecasting.**
 
-<img src="https://github.com/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Images/Daily_evolution_on_pollutant_concentration.png" alt="drawing" width="480" align='center'/>&nbsp;<img src="https://github.com/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Images/Concentration_across_hours.png" alt="drawing" width="480" align='center'/>
+<img src="https://github.com/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Images/Daily_evolution_on_pollutant_concentration.png" alt="drawing" width="450" align='center'/>&nbsp;<img src="https://github.com/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Images/Concentration_across_hours.png" alt="drawing" width="450" align='center'/>
 
 
 ## Table of Contents
