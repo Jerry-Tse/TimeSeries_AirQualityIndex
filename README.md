@@ -5,12 +5,12 @@
 # Project -- Air Quality Index: 5 Days Relative Mortality Risk 
 **Utilize open-source air pollutant datasets, define an air quality index, perform in-depth data analysis, and perform time-series forecasting.**
 
-<p align="center">
-<img src="https://github.com/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Images/Daily_evolution_on_pollutant_concentration.png" alt="drawing" width="400" align='center'/>&nbsp;<img src="https://github.com/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Images/Concentration_across_hours.png" alt="drawing" width="400" align='center'/>
-</p>
+
+<img src="https://github.com/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Images/Daily_evolution_on_pollutant_concentration.png" alt="drawing" width="470" align='center'/>&nbsp;<img src="https://github.com/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Images/Concentration_across_hours.png" alt="drawing" width="470" align='center'/>
+
+**Note: Access Jupyter notebook for full analysis ([Part I](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_1.ipynb) & [Part II](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_2.ipynb))**
 
 ## Table of Contents
-- Note: Access Jupyter notebook for full analysis ([Part I](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_1.ipynb) & [Part II](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_2.ipynb))
 - [Data Background](#data-background)
 - [Define Air Quality Index](#define-air-quality-index)
 - [Data Processing](#data-processing)
