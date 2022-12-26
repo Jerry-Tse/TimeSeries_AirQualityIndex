@@ -1,18 +1,21 @@
-> ### Click here ([Part I](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_1.ipynb) & [Part II](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_2.ipynb)) to see full analysis 
 
-> This analysis emphasize on a reasonable analysis based on the background of the data, every step and method has some reasons behind. I hope you can get inspired from my article.
 
-# Air Quality Index: 5 Days Relative Mortality Risk
-Use open source Air Quality dataset on UCI, generate reasonable Index for Air Quality, perform data analysis and make predictions.
+
+
+# Project -- Air Quality Index: 5 Days Relative Mortality Risk 
+**Utilize open-source air pollutant datasets, define an air quality index, perform in-depth data analysis, and perform time-series forecasting.**
+
+<img src="https://github.com/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Images/Daily_evolution_on_pollutant_concentration.png" alt="drawing" width="500" align='center'/>&nbsp;&nbsp;<img src="https://github.com/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Images/Concentration_across_hours.png" alt="drawing" width="500" align='center'/>
+
 
 ## Table of Contents
+- Note: Access Jupyter notebook for full analysis ([Part I](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_1.ipynb) & [Part II](https://nbviewer.jupyter.org/github/Jerry-Tse/TimeSeries_AirQualityIndex/blob/master/Project_Air_Quality_2.ipynb))
 - [Data Background](#data-background)
 - [Define Air Quality Index](#define-air-quality-index)
 - [Data Processing](#data-processing)
 - [Data Visualization](#data-visualization)
 - [Modeling and Predictions](#modeling-and-predictions)
 - [Conclusion](#conclusion)
-
 
 ---
 
